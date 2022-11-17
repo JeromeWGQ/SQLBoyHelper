@@ -17,11 +17,11 @@ var fillScriptText = fillScriptText.substring(14, fillScriptText.length - 1)
 function update() {
     setTimeout(() => {
         $('body > div.app-main > section > section > section > div > div.mtd-loading-nested > div > div:nth-child(4)').append('<input id="fillInput"></input><button onclick="' + fillScriptText + '">fill</button>')
-    }, 500);
+    }, 1000);
 }
 
-// update()
+update()
 
-$('body > div.app-main > section > section > section > div > div.mtd-loading-nested > div > div.sync > div.sync-title > i').click(function () {
-    update()
-})
+// $('body > div.app-main > section > section > section > div > div.mtd-loading-nested > div > div:nth-child(2) > div > div:nth-child(1) > div > span.value').click(function () {
+//     update()
+// })

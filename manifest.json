@@ -23,4 +23,10 @@
             ]
         }
     ]
+    // ,
+    // "page_action": {
+    //     "default_icon": "img/icon.png",
+    //     "default_title": "我是pageAction",
+    //     "default_popup": "popup.html"
+    // }
 }
