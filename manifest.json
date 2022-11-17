@@ -1,0 +1,26 @@
+{
+    "name": "SQLBoyHelper",
+    "description": "Meituan SQL Boy/Girl Helper",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://bi.sankuai.com/*"
+            ],
+            "js": [
+                "jquery-3.6.1.min.js",
+                "genSQL.js"
+            ]
+        },
+        {
+            "matches": [
+                "https://data.sankuai.com/*"
+            ],
+            "js": [
+                "jquery-3.6.1.min.js",
+                "fillDoris.js"
+            ]
+        }
+    ]
+}
