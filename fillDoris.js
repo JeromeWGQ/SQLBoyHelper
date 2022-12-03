@@ -4,7 +4,7 @@ let fillScript = function () {
     num = document.getElementById('fillInput').value;
     const eInput = new Event('input');
     elements.forEach(element => {
-        if (element.placeholder == '长度') {
+        if (element.placeholder == '若数据内容有中文，按3倍长度配置') {
             element.value = num;
             element.dispatchEvent(eInput);
         }
