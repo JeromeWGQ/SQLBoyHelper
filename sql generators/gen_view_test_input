@@ -1,0 +1,14 @@
+-- 以下，通过魔数搜索ODS表后，选中后直接粘贴
+
+字段名	注释	数据类型
+dt [P]	分区字段	string
+id		bigint
+resource_id	资源id	bigint
+manage_appeals	治理者硬件诉求 多选	string
+mt_appeals	MT硬件配置 多选	string
+approval_status	审批状态, 0:未发起审批, 1:审批完成, 2:审批中, 3:审批驳回, 4:审批撤销	bigint
+creator	创建人	string
+create_time		string
+modify_time	修改时间	string
+modifier	修改人	string
+_update_timestamp	更新时间	string
