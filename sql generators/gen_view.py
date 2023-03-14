@@ -2,12 +2,10 @@ import sys
 
 
 def print_new_line(sql_type, index, comma):
+    output = '    ' + comma + '`' + field_name[index] + '`'
     if sql_type == 1:
-        print('    ' + comma + '`' + field_name[index] + '`'
-              + ' ' * (max_field_name_length - len(field_name[index]) + 1) + 'COMMENT'
-              + ' \'' + comment[index] + '\'')
-    elif sql_type == 2:
-        print('    ' + comma + '`' + field_name[index] + '`')
+        output += ' ' * (max_field_name_length - len(field_name[index]) + 1) + 'COMMENT' + ' \'' + comment[index] + '\''
+    print(output)
 
 
 if __name__ == '__main__':
