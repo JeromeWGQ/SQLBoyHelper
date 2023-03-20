@@ -1,6 +1,6 @@
 {
     "name": "SQLBoyHelper",
-    "description": "Meituan SQL Boy/Girl Helper",
+    "description": "for Meituan SQL Boy/Girl Helper",
     "version": "0.1",
     "manifest_version": 3,
     "content_scripts": [
