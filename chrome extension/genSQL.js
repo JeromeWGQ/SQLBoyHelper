@@ -3,6 +3,7 @@ let buttonScript1 = function () {
     let tableName = this.parentNode.children[0].innerHTML.replace(/<i.*?>/, '').replace(/<\/i>/, '');
     let tableAnnotation = this.parentNode.children[1].innerHTML.replace(/#.*/, '');
     navigator.clipboard.writeText('-- ' + tableAnnotation + ' - ' + tableName + ' - 示例数据\nselect\n*\nfrom ' + tableName + '\nwhere pt_dt=\'$$yesterday\'\n-- and to_date(create_time)=\'$$yesterday\'\norder by rand()\nlimit 200\n');
+    document.title = tableName.substr(-10);
 }
 
 var buttonScriptText1 = buttonScript1.toLocaleString()
@@ -12,6 +13,7 @@ let buttonScript2 = function () {
     let tableName = this.parentNode.children[0].innerHTML.replace(/<i.*?>/, '').replace(/<\/i>/, '');
     let tableAnnotation = this.parentNode.children[1].innerHTML.replace(/#.*/, '');
     navigator.clipboard.writeText('-- ' + tableAnnotation + ' - ' + tableName + ' - 数据量\nselect\npt_dt\n,sum(1)\nfrom ' + tableName + '\n-- select\n-- to_date(create_time)\n-- ,sum(1)\n-- from ' + tableName + '\n-- where pt_dt=\'$$yesterday\'\ngroup by 1\norder by 1 desc\nlimit 100\n');
+    document.title = tableName.substr(-10);
 }
 
 var buttonScriptText2 = buttonScript2.toLocaleString()
