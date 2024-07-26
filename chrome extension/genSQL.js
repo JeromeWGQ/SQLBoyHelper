@@ -2,7 +2,7 @@
 let buttonScript1 = function () {
     let tableName = this.parentNode.children[0].innerHTML.replace(/<i.*?>/, '').replace(/<\/i>/, '');
     let tableAnnotation = this.parentNode.children[1].innerHTML.replace(/#.*/, '');
-    navigator.clipboard.writeText('-- ' + tableAnnotation + ' - ' + tableName + ' - 示例数据\nselect\n*\nfrom ' + tableName + '\nwhere pt_dt=\'$$yesterday\'\n-- and to_date(create_time)=\'$$yesterday\'\norder by rand()\nlimit 200\n');
+    navigator.clipboard.writeText('-- ' + tableAnnotation + ' - ' + tableName + ' - 示例数据\nselect\n*\nfrom ' + tableName + '\nwhere pt_dt=\'$$yesterday\'\n-- where dt=\'$$yesterday_compact\'\n-- and to_date(create_time)=\'$$yesterday\'\norder by rand()\nlimit 200\n');
     document.title = tableName.substr(-16);
 }
 
