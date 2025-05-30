@@ -1,33 +1,85 @@
+// 定义SQL模板
+const SQL_TEMPLATES = {
+    sampleData: (tableName, annotation) =>
+        `-- ${annotation} - ${tableName} - 示例数据
+select
+*
+from ${tableName}
+where pt_dt='$$yesterday'
+-- where dt='$$yesterday_compact'
+-- and to_date(create_time)='$$yesterday'
+order by rand()
+limit 200
+`,
+    dataCount: (tableName, annotation) =>
+        `-- ${annotation} - ${tableName} - 数据量
+select
+pt_dt
+-- dt
+,count(1)
+from ${tableName}
+-- select
+-- to_date(create_time)
+-- ,count(1)
+-- from ${tableName}
+-- where pt_dt='$$yesterday'
+-- where dt='$$yesterday_compact'
+group by 1
+order by 1 desc
+limit 100
+`
+};
 
-let buttonScript1 = function () {
-    let tableName = this.parentNode.children[0].innerHTML.replace(/<i.*?>/, '').replace(/<\/i>/, '');
-    let tableAnnotation = this.parentNode.children[1].innerHTML.replace(/#.*/, '');
-    navigator.clipboard.writeText('-- ' + tableAnnotation + ' - ' + tableName + ' - 示例数据\nselect\n*\nfrom ' + tableName + '\nwhere pt_dt=\'$$yesterday\'\n-- where dt=\'$$yesterday_compact\'\n-- and to_date(create_time)=\'$$yesterday\'\norder by rand()\nlimit 200\n');
-    document.title = tableName.substr(-16);
+// DOM 选择器
+const SELECTORS = {
+    tableName: "#app > div > div.sidebar-container > div > div.ms-sidebar-main > div > div > div.router-view > div > div > div.mtd-tabs-content > div > div > div.sql-item-main > div.sql-item-edit > div.workspace-left > div > div.table-info > div.key-list > div > div.table-line.show-column > div > div:nth-child(1)",
+    inputBox: "#app > div > div.sidebar-container > div > div.ms-sidebar-main > div > div > div.router-view > div > div > div.mtd-tabs-content > div > div > div.sql-item-main > div.sql-item-edit > div.workspace-left > div > div.table-info > div.table-search-input.mtd-input-wrapper.mtd-input-prefix.mtd-input-small > input"
+};
+
+// 按钮处理函数
+function handleButtonClick(type) {
+    return function() {
+        try {
+            const tableName = this.parentNode.children[0].innerHTML.replace(/<i.*?>/, '').replace(/<\/i>/, '');
+            const tableAnnotation = this.parentNode.children[1].innerHTML.replace(/#.*/, '');
+            const sql = SQL_TEMPLATEStype;
+
+            navigator.clipboard.writeText(sql);
+            document.title = tableName.substr(-16);
+        } catch (error) {
+            console.error('按钮点击处理错误:', error);
+        }
+    }
 }
 
-var buttonScriptText1 = buttonScript1.toLocaleString()
-var buttonScriptText1 = buttonScriptText1.substring(14, buttonScriptText1.length - 1)
-
-let buttonScript2 = function () {
-    let tableName = this.parentNode.children[0].innerHTML.replace(/<i.*?>/, '').replace(/<\/i>/, '');
-    let tableAnnotation = this.parentNode.children[1].innerHTML.replace(/#.*/, '');
-    navigator.clipboard.writeText('-- ' + tableAnnotation + ' - ' + tableName + ' - 数据量\nselect\npt_dt\n,sum(1)\nfrom ' + tableName + '\n-- select\n-- to_date(create_time)\n-- ,sum(1)\n-- from ' + tableName + '\n-- where pt_dt=\'$$yesterday\'\ngroup by 1\norder by 1 desc\nlimit 100\n');
-    document.title = tableName.substr(-16);
-}
-
-var buttonScriptText2 = buttonScript2.toLocaleString()
-var buttonScriptText2 = buttonScriptText2.substring(14, buttonScriptText2.length - 1)
-
+// 更新DOM
 function update() {
     setTimeout(() => {
-        $("#app > div > div.sidebar-container > div > div.ms-sidebar-main > div > div.router-view > div > div > div.mtd-tabs-content > div > div > div.sql-item-main > div.sql-item-edit > div.workspace-left > div > div.table-info > div.key-list > div > div > div").append('<button onclick="' + buttonScriptText1 + '">示例数据</button>').append('<button onclick="' + buttonScriptText2 + '">数据量</button>')
+        try {
+            const container = $(SELECTORS.tableName);
+            container.append(
+                $('<button>')
+                    .text('示例数据')
+                    .on('click', handleButtonClick('sampleData'))
+            ).append(
+                $('<button>')
+                    .text('数据量')
+                    .on('click', handleButtonClick('dataCount'))
+            );
+        } catch (error) {
+            console.error('更新DOM错误:', error);
+        }
     }, 1000);
 }
 
-// 输入框按下回车后，展示按钮
-$("#app > div > div.sidebar-container > div > div.ms-sidebar-main > div > div.router-view > div > div > div.mtd-tabs-content > div > div > div.sql-item-main > div.sql-item-edit > div.workspace-left > div > div.table-info > div.table-search-input.mtd-input-wrapper.mtd-input-prefix.mtd-input-small > input").keyup(function (event) {
-    if (event.which == 13) {
-        update()
-    }
-})
+document.addEventListener('DOMContentLoaded', function() {
+    // 输入框按下回车后，展示按钮
+    $(SELECTORS.inputBox).keyup(function (event) {  // 修正这里
+        if (event.which == 13) {
+            console.log('按了回车');
+            update();
+        }
+    });
+});
+
+console.log('end');
