@@ -3,6 +3,7 @@ from pypinyin import pinyin, Style
 from collections import Counter
 import re
 import csv
+from openpyxl import load_workbook
 
 
 def read_excel_range_by_columns(file_path, sheet_name, start_cell, end_cell):
@@ -56,6 +57,157 @@ def read_excel_range_by_columns(file_path, sheet_name, start_cell, end_cell):
     except Exception as e:
         print(f"读取Excel文件出错: {e}")
         return []
+
+
+def analyze_cell_colors(file_path, sheet_name, start_cell, end_cell):
+    """
+    分析Excel指定区域的单元格颜色分布
+
+    Args:
+        file_path: Excel文件路径
+        sheet_name: 工作表名称
+        start_cell: 起始单元格 (如 'B2')
+        end_cell: 结束单元格 (如 'Y25')
+
+    Returns:
+        dict: 颜色分布统计
+    """
+    try:
+        print("🎨 开始分析单元格颜色分布...")
+
+        # 使用openpyxl读取工作簿
+        workbook = load_workbook(file_path)
+        worksheet = workbook[sheet_name]
+
+        # 解析起始和结束位置
+        start_col = ord(start_cell[0]) - ord('A') + 1  # openpyxl使用1基索引
+        start_row = int(start_cell[1:])
+        end_col = ord(end_cell[0]) - ord('A') + 1
+        end_row = int(end_cell[1:])
+
+        color_stats = {}
+        total_cells = 0
+        cells_with_content = 0
+
+        # 遍历指定区域的所有单元格
+        for row in range(start_row, end_row + 1):
+            for col in range(start_col, end_col + 1):
+                cell = worksheet.cell(row=row, column=col)
+                total_cells += 1
+
+                # 检查单元格是否有内容
+                if cell.value is not None and str(cell.value).strip():
+                    cells_with_content += 1
+
+                    # 获取填充颜色
+                    fill = cell.fill
+                    if fill and fill.start_color and fill.start_color.rgb:
+                        color_rgb = fill.start_color.rgb
+                        if color_rgb and color_rgb != '00000000':  # 排除默认透明色
+                            color_name = get_color_name(color_rgb)
+                            color_stats[color_name] = color_stats.get(color_name, 0) + 1
+                        else:
+                            color_stats['无颜色/默认'] = color_stats.get('无颜色/默认', 0) + 1
+                    else:
+                        color_stats['无颜色/默认'] = color_stats.get('无颜色/默认', 0) + 1
+
+        workbook.close()
+
+        print(f"✅ 颜色分析完成！")
+        print(f"   总单元格数：{total_cells}")
+        print(f"   有内容单元格数：{cells_with_content}")
+
+        return {
+            'color_distribution': color_stats,
+            'total_cells': total_cells,
+            'cells_with_content': cells_with_content
+        }
+
+    except Exception as e:
+        print(f"❌ 分析单元格颜色时出错: {e}")
+        return {
+            'color_distribution': {},
+            'total_cells': 0,
+            'cells_with_content': 0
+        }
+
+
+def get_color_name(rgb_color):
+    """
+    将RGB颜色值转换为颜色名称
+
+    Args:
+        rgb_color: RGB颜色值 (如 'FFFF0000')
+
+    Returns:
+        str: 颜色名称
+    """
+    # 常见颜色映射
+    color_map = {
+        'FFFF0000': '红色',
+        'FF00FF00': '绿色',
+        'FF0000FF': '蓝色',
+        'FFFFFF00': '黄色',
+        'FFFF00FF': '紫色',
+        'FF00FFFF': '青色',
+        'FFFFA500': '橙色',
+        'FFFFC0CB': '粉色',
+        'FF800080': '紫色',
+        'FF008000': '深绿色',
+        'FF000080': '深蓝色',
+        'FF800000': '深红色',
+        'FF808080': '灰色',
+        'FFC0C0C0': '浅灰色',
+        'FFFFFFFF': '白色',
+        'FF000000': '黑色',
+        'FFADD8E6': '浅蓝色',
+        'FF90EE90': '浅绿色',
+        'FFFFB6C1': '浅粉色',
+        'FFFFFFE0': '浅黄色',
+        'FFE6E6FA': '淡紫色',
+    }
+
+    # 如果是已知颜色，返回中文名称
+    if rgb_color in color_map:
+        return color_map[rgb_color]
+
+    # 否则返回RGB值
+    return f'RGB({rgb_color})'
+
+
+def print_color_statistics(color_analysis):
+    """
+    打印颜色统计信息
+
+    Args:
+        color_analysis: 颜色分析结果
+    """
+    print("\n" + "="*50)
+    print("🎨 单元格颜色分布统计")
+    print("="*50)
+
+    color_distribution = color_analysis['color_distribution']
+    total_cells = color_analysis['total_cells']
+    cells_with_content = color_analysis['cells_with_content']
+
+    print(f"📊 区域统计：")
+    print(f"   • 总单元格数：{total_cells}")
+    print(f"   • 有内容单元格数：{cells_with_content}")
+    print(f"   • 空单元格数：{total_cells - cells_with_content}")
+    print()
+
+    if color_distribution:
+        print("🌈 颜色分布（仅统计有内容的单元格）：")
+        # 按数量排序
+        sorted_colors = sorted(color_distribution.items(), key=lambda x: x[1], reverse=True)
+
+        for color_name, count in sorted_colors:
+            percentage = (count / cells_with_content * 100) if cells_with_content > 0 else 0
+            print(f"   • {color_name}：{count} 个 ({percentage:.1f}%)")
+    else:
+        print("🌈 颜色分布：未检测到特殊颜色")
+
+    print("="*50)
 
 
 def check_single_char_pronunciation_duplicates(words):
@@ -477,21 +629,24 @@ def print_statistics(words, stats, detailed_results):
     print("📊 处理结果统计")
     print("="*50)
 
+    # 固定的联想词总数
+    TOTAL_ASSOCIATION_WORDS = 546
+
     # 基础统计
     total_words = len(words)
     single_chars = [w for w in words if len(w) == 1]
     double_chars = [w for w in words if len(w) == 2]
 
-    print(f"📝 词语总数：{total_words}")
-    print(f"   • 单字：{len(single_chars)} 个")
-    print(f"   • 双字：{len(double_chars)} 个")
+    print(f"📝 词语总数：{total_words} ({total_words/TOTAL_ASSOCIATION_WORDS*100:.1f}%)")
+    print(f"   • 单字：{len(single_chars)} 个 ({len(single_chars)/TOTAL_ASSOCIATION_WORDS*100:.1f}%)")
+    print(f"   • 双字：{len(double_chars)} 个 ({len(double_chars)/TOTAL_ASSOCIATION_WORDS*100:.1f}%)")
     print()
 
     # 读音策略统计
     print("🎯 读音策略分布：")
-    print(f"   • 单字（读自身）：{stats['single_char_count']} 个")
-    print(f"   • 双字（读首字）：{stats['double_char_read_first']} 个")
-    print(f"   • 双字（读完整）：{stats['double_char_read_full']} 个")
+    print(f"   • 单字（读自身）：{stats['single_char_count']} 个 ({stats['single_char_count']/TOTAL_ASSOCIATION_WORDS*100:.1f}%)")
+    print(f"   • 双字（读首字）：{stats['double_char_read_first']} 个 ({stats['double_char_read_first']/TOTAL_ASSOCIATION_WORDS*100:.1f}%)")
+    print(f"   • 双字（读完整）：{stats['double_char_read_full']} 个 ({stats['double_char_read_full']/TOTAL_ASSOCIATION_WORDS*100:.1f}%)")
     print()
 
     # 读音长度统计
@@ -503,7 +658,8 @@ def print_statistics(words, stats, detailed_results):
 
     print("📏 读音长度分布：")
     for length in sorted(pronunciation_lengths.keys()):
-        print(f"   • {length}字读音：{pronunciation_lengths[length]} 个")
+        count = pronunciation_lengths[length]
+        print(f"   • {length}字读音：{count} 个 ({count/TOTAL_ASSOCIATION_WORDS*100:.1f}%)")
     print()
 
     # 首字音重复情况统计
@@ -514,10 +670,11 @@ def print_statistics(words, stats, detailed_results):
 
     print("🔄 首字音重复情况：")
     for count in sorted(repeat_counts.keys()):
+        word_count = repeat_counts[count]
         if count == 1:
-            print(f"   • 独一无二：{repeat_counts[count]} 个词语")
+            print(f"   • 独一无二：{word_count} 个词语 ({word_count/TOTAL_ASSOCIATION_WORDS*100:.1f}%)")
         else:
-            print(f"   • 重复{count}次：{repeat_counts[count]} 个词语")
+            print(f"   • 重复{count}次：{word_count} 个词语 ({word_count/TOTAL_ASSOCIATION_WORDS*100:.1f}%)")
     print()
 
     # 多音字统计
@@ -571,6 +728,10 @@ def main():
         return
 
     print(f"✅ 成功读取到 {len(words)} 个有效词语（仅保留纯中文1-2字词语）")
+
+    # 分析单元格颜色分布
+    color_analysis = analyze_cell_colors(file_path, sheet_name, 'B2', 'Y25')
+    print_color_statistics(color_analysis)
 
     # 打印处理逻辑说明
     print_processing_logic()
