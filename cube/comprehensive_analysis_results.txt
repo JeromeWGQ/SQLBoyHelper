@@ -1,0 +1,749 @@
+Excel词语拼音综合分析结果
+============================================================
+
+【原始分析结果】
+总词数: 520
+有效拼音数: 520
+唯一拼音数: 307
+有重复的拼音种类数: 117
+有重复拼音的词数: 330
+
+【调整后分析结果】
+总词数: 520
+有效拼音数: 520
+唯一拼音数: 370
+有重复的拼音种类数: 103
+有重复拼音的词数: 253
+
+【声调分布对比】
+声调		原始		调整后
+一声(阴平)	154次(29.6%)	134次(25.8%)
+二声(阳平)	138次(26.5%)	153次(29.4%)
+三声(上声)	85次(16.3%)	88次(16.9%)
+四声(去声)	142次(27.3%)	139次(26.7%)
+轻声	1次(0.2%)	6次(1.2%)
+
+【调整记录】(共199个调整)
+序号	词语	原拼音	新拼音	调整原因
+1	阿黄	a1	hua2ng	第一个字拼音重复，改用第二个字
+2	阿狸	a1	li2	第一个字拼音重复，改用第二个字
+3	阿妹	a1	me4i	第一个字拼音重复，改用第二个字
+4	安琪	a1n	qi2	第一个字拼音重复，改用第二个字
+5	阿腾	a1	te2ng	第一个字拼音重复，改用第二个字
+6	暗巫	a4n	wu1	第一个字拼音重复，改用第二个字
+7	暗信	a4n	xi4n	第一个字拼音重复，改用第二个字
+8	奥运	a4o	yu4n	第一个字拼音重复，改用第二个字
+9	阿泽	a1	ze2	第一个字拼音重复，改用第二个字
+10	冰女	bi1ng	nv3	第一个字拼音重复，改用第二个字
+11	兵器	bi1ng	qi4	第一个字拼音重复，改用第二个字
+12	冰人	bi1ng	re2n	第一个字拼音重复，改用第二个字
+13	宝石	ba3o	shi2	第一个字拼音重复，改用第二个字
+14	冰糖	bi1ng	ta2ng	第一个字拼音重复，改用第二个字
+15	保温	ba3o	we1n	第一个字拼音重复，改用第二个字
+16	冰箱	bi1ng	xia1ng	第一个字拼音重复，改用第二个字
+17	暴走	ba4o	zo3u	第一个字拼音重复，改用第二个字
+18	磁能	ci2	ne2ng	第一个字拼音重复，改用第二个字
+19	城墙	che2ng	qia2ng	第一个字拼音重复，改用第二个字
+20	慈善	ci2	sha4n	第一个字拼音重复，改用第二个字
+21	刺猬	ci4	we4i	第一个字拼音重复，改用第二个字
+22	程序	che2ng	xu4	第一个字拼音重复，改用第二个字
+23	橙汁	che2ng	zhi1	第一个字拼音重复，改用第二个字
+24	豆腐	do4u	fu3	第一个字拼音重复，改用第二个字
+25	豆浆	do4u	jia1ng	第一个字拼音重复，改用第二个字
+26	蛋壳	da4n	ke2	第一个字拼音重复，改用第二个字
+27	大鸟	da4	nia3o	第一个字拼音重复，改用第二个字
+28	地球	di4	qiu2	第一个字拼音重复，改用第二个字
+29	蛋挞	da4n	ta4	第一个字拼音重复，改用第二个字
+30	戴炜	da4i	we3i	第一个字拼音重复，改用第二个字
+31	大象	da4	xia4ng	第一个字拼音重复，改用第二个字
+32	豆油	do4u	yo2u	第一个字拼音重复，改用第二个字
+33	袋子	da4i	zi	第一个字拼音重复，改用第二个字
+34	二胡	e4r	hu2	第一个字拼音重复，改用第二个字
+35	噩梦	e4	me4ng	第一个字拼音重复，改用第二个字
+36	英文	yi1ng	we2n	第一个字拼音重复，改用第二个字
+37	耳片	e3r	pia4n	第一个字拼音重复，改用第二个字
+38	恶犬	e4	qua3n	第一个字拼音重复，改用第二个字
+39	耳蜗	e3r	wo1	第一个字拼音重复，改用第二个字
+40	鳄鱼	e4	yu2	第一个字拼音重复，改用第二个字
+41	飞碟	fe1i	die2	第一个字拼音重复，改用第二个字
+42	飞蛾	fe1i	e2	第一个字拼音重复，改用第二个字
+43	飞机	fe1i	ji1	第一个字拼音重复，改用第二个字
+44	飞龙	fe1i	lo2ng	第一个字拼音重复，改用第二个字
+45	发票	fa1	pia4o	第一个字拼音重复，改用第二个字
+46	斧头	fu3	to2u	第一个字拼音重复，改用第二个字
+47	蜂窝	fe1ng	wo1	第一个字拼音重复，改用第二个字
+48	飞行	fe1i	xi2ng	第一个字拼音重复，改用第二个字
+49	飞鱼	fe1i	yu2	第一个字拼音重复，改用第二个字
+50	风筝	fe1ng	zhe1ng	第一个字拼音重复，改用第二个字
+51	锅炉	guo1	lu2	第一个字拼音重复，改用第二个字
+52	果盘	guo3	pa2n	第一个字拼音重复，改用第二个字
+53	钢琴	ga1ng	qi2n	第一个字拼音重复，改用第二个字
+54	郭锐	guo1	rui4	第一个字拼音重复，改用第二个字
+55	黄瓜	hua2ng	gua1	第一个字拼音重复，改用第二个字
+56	红酒	ho2ng	jiu3	第一个字拼音重复，改用第二个字
+57	海蛎	ha3i	li4	第一个字拼音重复，改用第二个字
+58	海绵	ha3i	mia2n	第一个字拼音重复，改用第二个字
+59	红牛	ho2ng	niu2	第一个字拼音重复，改用第二个字
+60	红旗	ho2ng	qi2	第一个字拼音重复，改用第二个字
+61	花生	hua1	she1ng	第一个字拼音重复，改用第二个字
+62	核桃	he2	ta2o	第一个字拼音重复，改用第二个字
+63	黄油	hua2ng	yo2u	第一个字拼音重复，改用第二个字
+64	黄忠	hua2ng	zho1ng	第一个字拼音重复，改用第二个字
+65	衣领	yi1	li3ng	第一个字拼音重复，改用第二个字
+66	衣帽	yi1	ma4o	第一个字拼音重复，改用第二个字
+67	高球	ga1o	qiu2	第一个字拼音重复，改用第二个字
+68	仪器	yi2	qi4	第一个字拼音重复，改用第二个字
+69	红外	ho2ng	wa4i	第一个字拼音重复，改用第二个字
+70	医生	yi1	she1ng	第一个字拼音重复，改用第二个字
+71	手表	sho3u	bia3o	第一个字拼音重复，改用第二个字
+72	弹弓	da4n	go1ng	第一个字拼音重复，改用第二个字
+73	弹簧	da4n	hua2ng	第一个字拼音重复，改用第二个字
+74	坚果	jia1n	guo3	第一个字拼音重复，改用第二个字
+75	佳慧	jia1	hui4	第一个字拼音重复，改用第二个字
+76	积木	ji1	mu4	第一个字拼音重复，改用第二个字
+77	家旗	jia1	qi2	第一个字拼音重复，改用第二个字
+78	杰瑞	jie2	rui4	第一个字拼音重复，改用第二个字
+79	机械	ji1	xie4	第一个字拼音重复，改用第二个字
+80	加油	jia1	yo2u	第一个字拼音重复，改用第二个字
+81	饺子	jia3o	zi	第一个字拼音重复，改用第二个字
+82	开瓶	ka1i	pi2ng	第一个字拼音重复，改用第二个字
+83	孔雀	ko3ng	que4	第一个字拼音重复，改用第二个字
+84	烤肉	ka3o	ro4u	第一个字拼音重复，改用第二个字
+85	矿山	kua4ng	sha1n	第一个字拼音重复，改用第二个字
+86	空调	ko1ng	dia4o	第一个字拼音重复，改用第二个字
+87	矿物	kua4ng	wu4	第一个字拼音重复，改用第二个字
+88	烤箱	ka3o	xia1ng	第一个字拼音重复，改用第二个字
+89	烤鱼	ka3o	yu2	第一个字拼音重复，改用第二个字
+90	口罩	ko3u	zha4o	第一个字拼音重复，改用第二个字
+91	轮滑	lu2n	hua2	第一个字拼音重复，改用第二个字
+92	蓝莓	la2n	me2i	第一个字拼音重复，改用第二个字
+93	露娜	lu4	na4	第一个字拼音重复，改用第二个字
+94	廉颇	lia2n	po3	第一个字拼音重复，改用第二个字
+95	篮球	la2n	qiu2	第一个字拼音重复，改用第二个字
+96	卤味	lu3	we4i	第一个字拼音重复，改用第二个字
+97	路由	lu4	yo2u	第一个字拼音重复，改用第二个字
+98	蜡烛	la4	zhu2	第一个字拼音重复，改用第二个字
+99	马车	ma3	che1	第一个字拼音重复，改用第二个字
+100	面粉	mia4n	fe3n	第一个字拼音重复，改用第二个字
+101	麻将	ma2	jia1ng	第一个字拼音重复，改用第二个字
+102	马可	ma3	ke3	第一个字拼音重复，改用第二个字
+103	木兰	mu4	la2n	第一个字拼音重复，改用第二个字
+104	魔女	mo2	nv3	第一个字拼音重复，改用第二个字
+105	摩托	mo2	tuo1	第一个字拼音重复，改用第二个字
+106	蛮王	ma2n	wa2ng	第一个字拼音重复，改用第二个字
+107	米线	mi3	xia4n	第一个字拼音重复，改用第二个字
+108	芈月	mi3	yue4	第一个字拼音重复，改用第二个字
+109	墨子	mo4	zi	第一个字拼音重复，改用第二个字
+110	南瓜	na2n	gua1	第一个字拼音重复，改用第二个字
+111	牛角	niu2	jia3o	第一个字拼音重复，改用第二个字
+112	娜可	na4	ke3	第一个字拼音重复，改用第二个字
+113	牛魔	niu2	mo2	第一个字拼音重复，改用第二个字
+114	尼欧	ni2	o1u	第一个字拼音重复，改用第二个字
+115	奶瓶	na3i	pi2ng	第一个字拼音重复，改用第二个字
+116	牛乳	niu2	ru3	第一个字拼音重复，改用第二个字
+117	鸟屎	nia3o	shi3	第一个字拼音重复，改用第二个字
+118	奶糖	na3i	ta2ng	第一个字拼音重复，改用第二个字
+119	女娲	nv3	wa1	第一个字拼音重复，改用第二个字
+120	内衣	ne4i	yi1	第一个字拼音重复，改用第二个字
+121	肥皂	fe2i	za4o	第一个字拼音重复，改用第二个字
+122	蛋炒	da4n	cha3o	第一个字拼音重复，改用第二个字
+123	蛋树	da4n	shu4	第一个字拼音重复，改用第二个字
+124	蛋卷	da4n	jua3n	第一个字拼音重复，改用第二个字
+125	蛋酥	da4n	su1	第一个字拼音重复，改用第二个字
+126	奥特	a4o	te4	第一个字拼音重复，改用第二个字
+127	守望	sho3u	wa4ng	第一个字拼音重复，改用第二个字
+128	公牛	go1ng	niu2	第一个字拼音重复，改用第二个字
+129	欧元	o1u	yua2n	第一个字拼音重复，改用第二个字
+130	蛋仔	da4n	za3i	第一个字拼音重复，改用第二个字
+131	喷火	pe1n	huo3	第一个字拼音重复，改用第二个字
+132	皮筋	pi2	ji1n	第一个字拼音重复，改用第二个字
+133	喷泉	pe1n	qua2n	第一个字拼音重复，改用第二个字
+134	喷雾	pe1n	wu4	第一个字拼音重复，改用第二个字
+135	皮虾	pi2	xia1	第一个字拼音重复，改用第二个字
+136	皮衣	pi2	yi1	第一个字拼音重复，改用第二个字
+137	芹菜	qi2n	ca4i	第一个字拼音重复，改用第二个字
+138	屏幕	pi2ng	mu4	第一个字拼音重复，改用第二个字
+139	乞丐	qi3	ga4i	第一个字拼音重复，改用第二个字
+140	琴行	qi2n	xi2ng	第一个字拼音重复，改用第二个字
+141	丘陵	qiu1	li2ng	第一个字拼音重复，改用第二个字
+142	青梅	qi1ng	me2i	第一个字拼音重复，改用第二个字
+143	球拍	qiu2	pa1i	第一个字拼音重复，改用第二个字
+144	二维	e4r	we2i	第一个字拼音重复，改用第二个字
+145	潜艇	qia2n	ti3ng	第一个字拼音重复，改用第二个字
+146	青蛙	qi1ng	wa1	第一个字拼音重复，改用第二个字
+147	器械	qi4	xie4	第一个字拼音重复，改用第二个字
+148	蚯蚓	qiu1	yi3n	第一个字拼音重复，改用第二个字
+149	茄子	jia1	zi	第一个字拼音重复，改用第二个字
+150	热狗	re4	go3u	第一个字拼音重复，改用第二个字
+151	肉酱	ro4u	jia4ng	第一个字拼音重复，改用第二个字
+152	入殓	ru4	lia4n	第一个字拼音重复，改用第二个字
+153	日期	ri4	qi1	第一个字拼音重复，改用第二个字
+154	肉松	ro4u	so1ng	第一个字拼音重复，改用第二个字
+155	肉丸	ro4u	wa2n	第一个字拼音重复，改用第二个字
+156	日向	ri4	xia4ng	第一个字拼音重复，改用第二个字
+157	熔岩	ro2ng	ya2n	第一个字拼音重复，改用第二个字
+158	水管	shui3	gua3n	第一个字拼音重复，改用第二个字
+159	丝巾	si1	ji1n	第一个字拼音重复，改用第二个字
+160	水龙	shui3	lo2ng	第一个字拼音重复，改用第二个字
+161	酸奶	sua1n	na3i	第一个字拼音重复，改用第二个字
+162	铁板	tie3	ba3n	第一个字拼音重复，改用第二个字
+163	天河	tia1n	he2	第一个字拼音重复，改用第二个字
+164	电梯	dia4n	ti1	第一个字拼音重复，改用第二个字
+165	台阶	ta2i	jie1	第一个字拼音重复，改用第二个字
+166	铁路	tie3	lu4	第一个字拼音重复，改用第二个字
+167	天平	tia1n	pi2ng	第一个字拼音重复，改用第二个字
+168	台球	ta2i	qiu2	第一个字拼音重复，改用第二个字
+169	天使	tia1n	shi3	第一个字拼音重复，改用第二个字
+170	木头	mu4	to2u	第一个字拼音重复，改用第二个字
+171	外卖	wa4i	ma4i	第一个字拼音重复，改用第二个字
+172	围裙	we2i	qu2n	第一个字拼音重复，改用第二个字
+173	微软	we1i	rua3n	第一个字拼音重复，改用第二个字
+174	巫师	wu1	shi1	第一个字拼音重复，改用第二个字
+175	蚊香	we2n	xia1ng	第一个字拼音重复，改用第二个字
+176	鞋垫	xie2	dia4n	第一个字拼音重复，改用第二个字
+177	西瓜	xi1	gua1	第一个字拼音重复，改用第二个字
+178	虾滑	xia1	hua2	第一个字拼音重复，改用第二个字
+179	相框	xia1ng	kua1ng	第一个字拼音重复，改用第二个字
+180	橡皮	xia4ng	pi2	第一个字拼音重复，改用第二个字
+181	象棋	xia4ng	qi2	第一个字拼音重复，改用第二个字
+182	鞋套	xie2	ta4o	第一个字拼音重复，改用第二个字
+183	幸运	xi4ng	yu4n	第一个字拼音重复，改用第二个字
+184	箱子	xia1ng	zi	第一个字拼音重复，改用第二个字
+185	渔夫	yu2	fu1	第一个字拼音重复，改用第二个字
+186	杨戬	ya2ng	jia3n	第一个字拼音重复，改用第二个字
+187	元康	yua2n	ka1ng	第一个字拼音重复，改用第二个字
+188	渔女	yu2	nv3	第一个字拼音重复，改用第二个字
+189	硬盘	yi4ng	pa2n	第一个字拼音重复，改用第二个字
+190	牙签	ya2	qia1n	第一个字拼音重复，改用第二个字
+191	鱼肉	yu2	ro4u	第一个字拼音重复，改用第二个字
+192	渔网	yu2	wa3ng	第一个字拼音重复，改用第二个字
+193	牙线	ya2	xia4n	第一个字拼音重复，改用第二个字
+194	张浩	zha1ng	ha4o	第一个字拼音重复，改用第二个字
+195	甄姬	zhe1n	ji1	第一个字拼音重复，改用第二个字
+196	指南	zhi3	na2n	第一个字拼音重复，改用第二个字
+197	中秋	zho1ng	qiu1	第一个字拼音重复，改用第二个字
+198	钻石	zua1n	shi2	第一个字拼音重复，改用第二个字
+199	张伟	zha1ng	we3i	第一个字拼音重复，改用第二个字
+
+【详细数据】
+序号	词语	原拼音	调整后拼音	原始重复	调整后重复
+1	安保	a1n	a1n	是	是
+2	主板	zhu3	zhu3	否	否
+3	阿福	a1	a1	是	否
+4	阿黄	a1	hua2ng	是	是
+5	按键	a4n	a4n	是	否
+6	阿狸	a1	li2	是	是
+7	阿妹	a1	me4i	是	否
+8	安	a1n	a1n	是	是
+9	奥	a4o	a4o	是	否
+10	苹果	pi2ng	pi2ng	是	是
+11	安琪	a1n	qi2	是	是
+12	眼镜	ya3n	ya3n	否	否
+13	阿腾	a1	te2ng	是	否
+14	暗巫	a4n	wu1	是	是
+15	暗信	a4n	xi4n	是	是
+16	奥运	a4o	yu4n	是	是
+17	阿泽	a1	ze2	是	是
+18	靶	ba3	ba3	否	否
+19	白菜	ba2i	ba2i	否	否
+20	板凳	ba3n	ba3n	否	是
+21	拜厄	ba4i	ba4i	否	否
+22	包峰	ba1o	ba1o	否	否
+23	冰棍	bi1ng	bi1ng	是	否
+24	薄荷	ba2o	ba2o	否	否
+25	笔	bi3	bi3	否	否
+26	北京	be3i	be3i	否	否
+27	贝壳	be4i	be4i	否	否
+28	玻璃	bo1	bo1	否	否
+29	宝马	ba3o	ba3o	是	否
+30	冰女	bi1ng	nv3	是	是
+31	博士	bo2	bo2	否	否
+32	鞭炮	bia1n	bia1n	否	否
+33	兵器	bi1ng	qi4	是	是
+34	冰人	bi1ng	re2n	是	是
+35	宝石	ba3o	shi2	是	是
+36	冰糖	bi1ng	ta2ng	是	是
+37	保温	ba3o	we1n	是	否
+38	冰箱	bi1ng	xia1ng	是	是
+39	鲍鱼	ba4o	ba4o	是	否
+40	暴走	ba4o	zo3u	是	否
+41	擦	ca1	ca1	否	否
+42	茶杯	cha2	cha2	否	否
+43	嫦娥	cha2ng	cha2ng	否	否
+44	唇膏	chu2n	chu2n	否	否
+45	彩虹	ca3i	ca3i	否	否
+46	磁	ci2	ci2	是	否
+47	程洁	che2ng	che2ng	是	否
+48	刺客	ci4	ci4	是	否
+49	窗帘	chua1ng	chua1ng	否	否
+50	草莓	ca3o	ca3o	否	否
+51	磁能	ci2	ne2ng	是	否
+52	手铐	sho3u	sho3u	是	否
+53	车票	che1	che1	否	是
+54	城墙	che2ng	qia2ng	是	是
+55	皇室	hua2ng	hua2ng	是	是
+56	慈善	ci2	sha4n	是	否
+57	抽屉	cho1u	cho1u	否	否
+58	刺猬	ci4	we4i	是	是
+59	程序	che2ng	xu4	是	否
+60	插眼	cha1	cha1	否	否
+61	橙汁	che2ng	zhi1	是	是
+62	豆瓣	do4u	do4u	是	否
+63	大葱	da4	da4	是	否
+64	戴尔	da4i	da4i	是	否
+65	豆腐	do4u	fu3	是	是
+66	蛋糕	da4n	da4n	是	否
+67	德航	de2	de2	否	否
+68	笛	di2	di2	否	否
+69	豆浆	do4u	jia1ng	是	是
+70	蛋壳	da4n	ke2	是	是
+71	地雷	di4	di4	是	否
+72	达摩	da2	da2	否	否
+73	大鸟	da4	nia3o	是	是
+74	灯泡	de1ng	de1ng	否	否
+75	地球	di4	qiu2	是	是
+76	钻戒	zua1n	zua1n	是	否
+77	动森	do4ng	do4ng	否	否
+78	蛋挞	da4n	ta4	是	否
+79	戴炜	da4i	we3i	是	是
+80	大象	da4	xia4ng	是	是
+81	豆油	do4u	yo2u	是	是
+82	袋子	da4i	zi	是	是
+83	铅笔	qia1n	qia1n	否	是
+84	内存	ne4i	ne4i	是	否
+85	英孚	yi1ng	yi1ng	是	否
+86	二锅	e4r	e4r	是	否
+87	二胡	e4r	hu2	是	是
+88	期刊	qi1	qi1	否	是
+89	耳机	e3r	e3r	是	否
+90	水冷	shui3	shui3	是	否
+91	饿狼	e4	e4	是	否
+92	噩梦	e4	me4ng	是	是
+93	英文	yi1ng	we2n	是	是
+94	鹅蛋	e2	e2	否	是
+95	耳片	e3r	pia4n	是	否
+96	恶犬	e4	qua3n	是	否
+97	外星	wa4i	wa4i	是	是
+98	耳蜗	e3r	wo1	是	是
+99	出口	chu1	chu1	否	否
+100	鳄鱼	e4	yu2	是	是
+101	儿子	e2r	e2r	否	否
+102	发	fa1	fa1	是	否
+103	飞镖	fe1i	fe1i	是	否
+104	飞碟	fe1i	die2	是	否
+105	飞蛾	fe1i	e2	是	是
+106	梵高	fa4n	fa4n	否	否
+107	凤凰	fe4ng	fe4ng	否	否
+108	飞机	fe1i	ji1	是	是
+109	防空	fa2ng	fa2ng	否	否
+110	飞龙	fe1i	lo2ng	是	是
+111	肥牛	fe2i	fe2i	是	否
+112	佛	fu2	fu2	否	否
+113	发票	fa1	pia4o	是	否
+114	番茄	fa1n	fa1n	否	否
+115	腐乳	fu3	fu3	是	是
+116	风扇	fe1ng	fe1ng	是	否
+117	斧头	fu3	to2u	是	是
+118	蜂窝	fe1ng	wo1	是	是
+119	飞行	fe1i	xi2ng	是	是
+120	飞鱼	fe1i	yu2	是	是
+121	风筝	fe1ng	zhe1ng	是	否
+122	锅巴	guo1	guo1	是	否
+123	棺材	gua1n	gua1n	否	否
+124	果冻	guo3	guo3	是	是
+125	鸽	ge1	ge1	否	否
+126	国服	guo2	guo2	否	否
+127	共辉	go4ng	go4ng	否	否
+128	公交	go1ng	go1ng	是	是
+129	钢盔	ga1ng	ga1ng	是	否
+130	锅炉	guo1	lu2	是	是
+131	古墓	gu3	gu3	否	否
+132	菇娘	gu1	gu1	否	否
+133	沟	go1u	go1u	否	否
+134	果盘	guo3	pa2n	是	是
+135	钢琴	ga1ng	qi2n	是	是
+136	郭锐	guo1	rui4	是	是
+137	归宿	gui1	gui1	否	否
+138	高铁	ga1o	ga1o	是	否
+139	狗窝	go3u	go3u	否	是
+140	光纤	gua1ng	gua1ng	否	否
+141	稿纸	ga3o	ga3o	否	否
+142	蛤	ha2	ha2	否	否
+143	红包	ho2ng	ho2ng	是	是
+144	货车	huo4	huo4	否	否
+145	蝴蝶	hu2	hu2	否	是
+146	鹤	he4	he4	否	否
+147	盒饭	he2	he2	是	是
+148	黄瓜	hua2ng	gua1	是	是
+149	海	ha3i	ha3i	是	否
+150	红酒	ho2ng	jiu3	是	是
+151	海蛎	ha3i	li4	是	否
+152	海绵	ha3i	mia2n	是	否
+153	红牛	ho2ng	niu2	是	是
+154	红	ho2ng	ho2ng	是	是
+155	花瓶	hua1	hua1	是	否
+156	红旗	ho2ng	qi2	是	是
+157	黑人	he1i	he1i	否	否
+158	花生	hua1	she1ng	是	是
+159	核桃	he2	ta2o	是	否
+160	护腕	hu4	hu4	否	否
+161	韩信	ha2n	ha2n	否	否
+162	黄油	hua2ng	yo2u	是	是
+163	黄忠	hua2ng	zho1ng	是	是
+164	铁塔	tie3	tie3	是	否
+165	订书	di4ng	di4ng	否	否
+166	卡	ka3	ka3	否	否
+167	证	zhe4ng	zhe4ng	否	否
+168	姨夫	yi2	yi2	是	是
+169	一哥	yi1	yi1	是	是
+170	梯子	ti1	ti1	否	是
+171	鱼竿	yu2	yu2	是	是
+172	键盘	jia4n	jia4n	否	否
+173	衣领	yi1	li3ng	是	否
+174	衣帽	yi1	ma4o	是	否
+175	墨水	mo4	mo4	是	否
+176	高球	ga1o	qiu2	是	是
+177	电话	dia4n	dia4n	是	是
+178	仪器	yi2	qi4	是	是
+179	红外	ho2ng	wa4i	是	是
+180	医生	yi1	she1ng	是	是
+181	钉子	di1ng	di1ng	否	否
+182	手表	sho3u	bia3o	是	否
+183	琴凳	qi2n	qi2n	是	是
+184	弹弓	da4n	go1ng	是	是
+185	弹簧	da4n	hua2ng	是	是
+186	夹	jia1	jia1	是	否
+187	煎饼	jia1n	jia1n	是	否
+188	鸡翅	ji1	ji1	是	是
+189	剪刀	jia3n	jia3n	否	是
+190	姐	jie3	jie3	否	否
+191	卷风	jua3n	jua3n	否	是
+192	坚果	jia1n	guo3	是	是
+193	佳慧	jia1	hui4	是	否
+194	鸡	ji1	ji1	是	是
+195	杰克	jie2	jie2	是	否
+196	姜磊	jia1ng	jia1ng	否	是
+197	积木	ji1	mu4	是	是
+198	胶囊	jia1o	jia1o	否	否
+199	脚	jia3o	jia3o	是	是
+200	日本	ri4	ri4	是	是
+201	家旗	jia1	qi2	是	是
+202	杰瑞	jie2	rui4	是	是
+203	祭司	ji4	ji4	否	否
+204	喷气	pe1n	pe1n	是	否
+205	九尾	jiu3	jiu3	否	是
+206	机械	ji1	xie4	是	是
+207	加油	jia1	yo2u	是	是
+208	饺子	jia3o	zi	是	是
+209	咖	ka1	ka1	否	否
+210	课本	ke4	ke4	否	否
+211	矿车	kua4ng	kua4ng	是	否
+212	快递	kua4i	kua4i	否	否
+213	壳	ke2	ke2	否	是
+214	烤饭	ka3o	ka3o	是	否
+215	开关	ka1i	ka1i	是	否
+216	口红	ko3u	ko3u	是	否
+217	空军	ko1ng	ko1ng	是	否
+218	可乐	ke3	ke3	否	是
+219	孔明	ko3ng	ko3ng	是	否
+220	柯南	ke1	ke1	否	否
+221	开瓶	ka1i	pi2ng	是	是
+222	孔雀	ko3ng	que4	是	否
+223	烤肉	ka3o	ro4u	是	是
+224	矿山	kua4ng	sha1n	是	是
+225	空调	ko1ng	dia4o	是	否
+226	矿物	kua4ng	wu4	是	是
+227	烤箱	ka3o	xia1ng	是	是
+228	烤鱼	ka3o	yu2	是	是
+229	口罩	ko3u	zha4o	是	是
+230	辣	la4	la4	是	否
+231	鲁班	lu3	lu3	是	否
+232	轮船	lu2n	lu2n	是	否
+233	路灯	lu4	lu4	是	是
+234	乐	le4	le4	否	否
+235	洛夫	luo4	luo4	否	否
+236	狼狗	la2ng	la2ng	否	否
+237	轮滑	lu2n	hua2	是	是
+238	梨	li2	li2	否	是
+239	垃圾	la1	la1	否	否
+240	篮筐	la2n	la2n	是	是
+241	蓝莓	la2n	me2i	是	是
+242	露娜	lu4	na4	是	是
+243	莲藕	lia2n	lia2n	是	否
+244	廉颇	lia2n	po3	是	否
+245	篮球	la2n	qiu2	是	是
+246	猎人	lie4	lie4	否	否
+247	炉石	lu2	lu2	否	是
+248	烙铁	la4o	la4o	否	否
+249	卤味	lu3	we4i	是	是
+250	龙虾	lo2ng	lo2ng	否	是
+251	路由	lu4	yo2u	是	是
+252	蜡烛	la4	zhu2	是	否
+253	马	ma3	ma3	是	否
+254	面包	mia4n	mia4n	是	否
+255	马车	ma3	che1	是	是
+256	麦当	ma4i	ma4i	否	是
+257	木耳	mu4	mu4	是	是
+258	面粉	mia4n	fe3n	是	否
+259	蘑菇	mo2	mo2	是	是
+260	麻花	ma2	ma2	是	否
+261	米	mi3	mi3	是	否
+262	麻将	ma2	jia1ng	是	是
+263	马可	ma3	ke3	是	是
+264	木兰	mu4	la2n	是	是
+265	魔女	mo2	nv3	是	是
+266	馍	mo2	mo2	是	是
+267	馒片	ma2n	ma2n	是	否
+268	梦奇	me4ng	me4ng	否	是
+269	鸣人	mi2ng	mi2ng	否	否
+270	秘石	mi4	mi4	否	否
+271	摩托	mo2	tuo1	是	是
+272	蛮王	ma2n	wa2ng	是	是
+273	米线	mi3	xia4n	是	是
+274	芈月	mi3	yue4	是	是
+275	墨子	mo4	zi	是	是
+276	钠盐	na4	na4	是	是
+277	乃冰	na3i	na3i	是	是
+278	鸟巢	nia3o	nia3o	是	是
+279	牛顿	niu2	niu2	是	是
+280	女儿	nv3	nv3	是	是
+281	南孚	na2n	na2n	是	是
+282	南瓜	na2n	gua1	是	是
+283	霓虹	ni2	ni2	是	是
+284	泥	ni2	ni2	是	是
+285	牛角	niu2	jia3o	是	是
+286	娜可	na4	ke3	是	是
+287	奴隶	nu2	nu2	否	否
+288	牛魔	niu2	mo2	是	是
+289	尼欧	ni2	o1u	是	是
+290	奶瓶	na3i	pi2ng	是	是
+291	暖气	nua3n	nua3n	否	否
+292	牛乳	niu2	ru3	是	是
+293	鸟屎	nia3o	shi3	是	是
+294	奶糖	na3i	ta2ng	是	是
+295	女娲	nv3	wa1	是	是
+296	孽蜥	nie4	nie4	否	否
+297	内衣	ne4i	yi1	是	是
+298	哪吒	na3	na3	否	否
+299	肥皂	fe2i	za4o	是	否
+300	撞	zhua4ng	zhua4ng	否	否
+301	蛋炒	da4n	cha3o	是	否
+302	蛋树	da4n	shu4	是	否
+303	鞋	xie2	xie2	是	否
+304	藕粉	o3u	o3u	否	否
+305	显卡	xia3n	xia3n	否	否
+306	欧皇	o1u	o1u	是	是
+307	硬币	yi4ng	yi4ng	是	否
+308	蛋卷	da4n	jua3n	是	是
+309	粘钩	zha1n	zha1n	否	否
+310	泳池	yo3ng	yo3ng	否	否
+311	洋葱	ya2ng	ya2ng	是	否
+312	丹皮	da1n	da1n	否	否
+313	望远	wa4ng	wa4ng	否	是
+314	森林	se1n	se1n	否	否
+315	蛋酥	da4n	su1	是	否
+316	奥特	a4o	te4	是	否
+317	守望	sho3u	wa4ng	是	是
+318	公牛	go1ng	niu2	是	是
+319	欧元	o1u	yua2n	是	是
+320	蛋仔	da4n	za3i	是	否
+321	钱包	qia2n	qia2n	是	否
+322	皮鞭	pi2	pi2	是	是
+323	瓢虫	pia2o	pia2o	否	否
+324	充电	cho1ng	cho1ng	否	否
+325	优盘	yo1u	yo1u	是	是
+326	鹏飞	pe2ng	pe2ng	否	否
+327	排骨	pa2i	pa2i	否	否
+328	喷火	pe1n	huo3	是	否
+329	皮	pi2	pi2	是	是
+330	皮筋	pi2	ji1n	是	是
+331	扑克	pu1	pu1	否	否
+332	破轮	po4	po4	是	是
+333	泡面	pa4o	pa4o	否	否
+334	贫女	pi2n	pi2n	否	否
+335	破	po4	po4	是	是
+336	喷泉	pe1n	qua2n	是	否
+337	飘柔	pia1o	pia1o	否	否
+338	披萨	pi1	pi1	否	否
+339	葡萄	pu2	pu2	否	否
+340	喷雾	pe1n	wu4	是	是
+341	皮虾	pi2	xia1	是	是
+342	皮衣	pi2	yi1	是	是
+343	盘子	pa2n	pa2n	否	是
+344	恰	qia4	qia4	否	否
+345	墙壁	qia2ng	qia2ng	否	是
+346	芹菜	qi2n	ca4i	是	否
+347	屏幕	pi2ng	mu4	是	是
+348	企鹅	qi3	qi3	是	否
+349	囚徒	qiu2	qiu2	是	是
+350	乞丐	qi3	ga4i	是	否
+351	琴行	qi2n	xi2ng	是	是
+352	青椒	qi1ng	qi1ng	是	否
+353	秋裤	qiu1	qiu1	是	是
+354	丘陵	qiu1	li2ng	是	否
+355	青梅	qi1ng	me2i	是	是
+356	气囊	qi4	qi4	是	是
+357	球	qiu2	qiu2	是	是
+358	球拍	qiu2	pa1i	是	否
+359	二维	e4r	we2i	是	是
+360	骑手	qi2	qi2	否	是
+361	潜艇	qia2n	ti3ng	是	否
+362	青蛙	qi1ng	wa1	是	是
+363	器械	qi4	xie4	是	是
+364	蚯蚓	qiu1	yi3n	是	否
+365	茄子	jia1	zi	是	是
+366	兔	tu4	tu4	否	否
+367	换电	hua4n	hua4n	否	否
+368	肉串	ro4u	ro4u	是	是
+369	柔道	ro2u	ro2u	否	否
+370	热	re4	re4	是	否
+371	润肺	ru4n	ru4n	否	否
+372	热狗	re4	go3u	是	是
+373	弱化	ruo4	ruo4	否	否
+374	日	ri4	ri4	是	是
+375	肉酱	ro4u	jia4ng	是	否
+376	入口	ru4	ru4	是	否
+377	入殓	ru4	lia4n	是	否
+378	绒毛	ro2ng	ro2ng	是	否
+379	肉	ro4u	ro4u	是	是
+380	软盘	rua3n	rua3n	否	是
+381	日期	ri4	qi1	是	是
+382	肉松	ro4u	so1ng	是	否
+383	人体	re2n	re2n	否	是
+384	肉丸	ro4u	wa2n	是	是
+385	日向	ri4	xia4ng	是	是
+386	熔岩	ro2ng	ya2n	是	否
+387	乳猪	ru3	ru3	否	是
+388	孙膑	su1n	su1n	否	否
+389	酸菜	sua1n	sua1n	是	否
+390	顺丰	shu4n	shu4n	否	否
+391	水管	shui3	gua3n	是	否
+392	售货	sho4u	sho4u	否	否
+393	丝	si1	si1	是	否
+394	丝巾	si1	ji1n	是	是
+395	声卡	she1ng	she1ng	否	是
+396	水龙	shui3	lo2ng	是	是
+397	沙漠	sha1	sha1	否	否
+398	酸奶	sua1n	na3i	是	是
+399	馊	so1u	so1u	否	否
+400	算盘	sua4n	sua4n	否	否
+401	四驱	si4	si4	否	否
+402	散热	sa4n	sa4n	否	否
+403	食堂	shi2	shi2	否	是
+404	三文	sa1n	sa1n	否	否
+405	摄像	she4	she4	否	否
+406	山羊	sha1n	sha1n	否	是
+407	梳子	shu1	shu1	否	否
+408	塔	ta3	ta3	否	否
+409	铁板	tie3	ba3n	是	是
+410	糖醋	ta2ng	ta2ng	否	是
+411	台灯	ta2i	ta2i	是	否
+412	天鹅	tia1n	tia1n	是	否
+413	掏粪	ta1o	ta1o	否	否
+414	虎	hu3	hu3	否	否
+415	天河	tia1n	he2	是	是
+416	电梯	dia4n	ti1	是	是
+417	台阶	ta2i	jie1	是	否
+418	坦克	ta3n	ta3n	否	否
+419	铁路	tie3	lu4	是	是
+420	汤姆	ta1ng	ta1ng	否	否
+421	鸵鸟	tuo2	tuo2	否	否
+422	桶	to3ng	to3ng	否	否
+423	天平	tia1n	pi2ng	是	是
+424	台球	ta2i	qiu2	是	是
+425	铜人	to2ng	to2ng	否	否
+426	天使	tia1n	shi3	是	是
+427	套娃	ta4o	ta4o	否	是
+428	拖鞋	tuo1	tuo1	否	是
+429	太乙	ta4i	ta4i	否	否
+430	体重	ti3	ti3	否	否
+431	娃	wa2	wa2	否	否
+432	围脖	we2i	we2i	是	是
+433	厕所	ce4	ce4	否	否
+434	木头	mu4	to2u	是	是
+435	玮	we3i	we3i	否	是
+436	汪峰	wa1ng	wa1ng	否	否
+437	乌龟	wu1	wu1	是	是
+438	万花	wa4n	wa4n	否	否
+439	文具	we2n	we2n	是	是
+440	悟空	wu4	wu4	否	是
+441	威廉	we1i	we1i	是	否
+442	外卖	wa4i	ma4i	是	是
+443	蜗牛	wo1	wo1	否	是
+444	玩偶	wa2n	wa2n	否	是
+445	卧铺	wo4	wo4	否	否
+446	围裙	we2i	qu2n	是	否
+447	微软	we1i	rua3n	是	是
+448	巫师	wu1	shi1	是	否
+449	舞台	wu3	wu3	否	否
+450	蚊香	we2n	xia1ng	是	是
+451	王悦	wa2ng	wa2ng	否	是
+452	袜子	wa4	wa4	否	否
+453	虾	xia1	xia1	是	是
+454	雪碧	xue3	xue3	否	否
+455	咸菜	xia2n	xia2n	否	否
+456	鞋垫	xie2	dia4n	是	是
+457	蟹	xie4	xie4	否	是
+458	西服	xi1	xi1	是	是
+459	西瓜	xi1	gua1	是	是
+460	虾滑	xia1	hua2	是	是
+461	吸	xi1	xi1	是	是
+462	香蕉	xia1ng	xia1ng	是	是
+463	相框	xia1ng	kua1ng	是	否
+464	项链	xia4ng	xia4ng	是	是
+465	熊猫	xio2ng	xio2ng	是	是
+466	学宁	xue2	xue2	否	否
+467	熊	xio2ng	xio2ng	是	是
+468	橡皮	xia4ng	pi2	是	是
+469	象棋	xia4ng	qi2	是	是
+470	杏仁	xi4ng	xi4ng	是	否
+471	血手	xue4	xue4	否	否
+472	鞋套	xie2	ta4o	是	是
+473	信物	xi4n	xi4n	否	是
+474	幸运	xi4ng	yu4n	是	是
+475	箱子	xia1ng	zi	是	是
+476	鸭	ya1	ya1	否	否
+477	元宝	yua2n	yua2n	是	是
+478	烟囱	ya1n	ya1n	否	否
+479	熨斗	yu4n	yu4n	否	是
+480	椰	ye1	ye1	否	否
+481	渔夫	yu2	fu1	是	否
+482	牙膏	ya2	ya2	是	否
+483	银行	yi2n	yi2n	否	否
+484	姨	yi2	yi2	是	是
+485	杨戬	ya2ng	jia3n	是	是
+486	元康	yua2n	ka1ng	是	否
+487	月亮	yue4	yue4	否	是
+488	玉米	yu4	yu4	否	否
+489	渔女	yu2	nv3	是	是
+490	悠	yo1u	yo1u	是	是
+491	硬盘	yi4ng	pa2n	是	是
+492	牙签	ya2	qia1n	是	是
+493	鱼肉	yu2	ro4u	是	是
+494	钥匙	ya4o	ya4o	否	否
+495	油条	yo2u	yo2u	否	是
+496	渔网	yu2	wa3ng	是	否
+497	牙线	ya2	xia4n	是	是
+498	柚子	yo4u	yo4u	否	否
+499	藏獒	ca2ng	ca2ng	否	否
+500	砧板	zhe1n	zhe1n	是	否
+501	纸抽	zhi3	zhi3	是	否
+502	子弹	zi	zi	否	是
+503	泽	ze2	ze2	否	是
+504	张飞	zha1ng	zha1ng	是	否
+505	诸葛	zhu1	zhu1	否	否
+506	张浩	zha1ng	ha4o	是	否
+507	籽	zi3	zi3	否	否
+508	甄姬	zhe1n	ji1	是	是
+509	钟馗	zho1ng	zho1ng	是	是
+510	栅栏	zha4	zha4	否	否
+511	芝麻	zhi1	zhi1	否	是
+512	指南	zhi3	na2n	是	是
+513	帐篷	zha4ng	zha4ng	否	否
+514	中秋	zho1ng	qiu1	是	是
+515	孜然	zi1	zi1	否	否
+516	钻石	zua1n	shi2	是	是
+517	枕头	zhe3n	zhe3n	否	否
+518	张伟	zha1ng	we3i	是	是
+519	自行	zi4	zi4	否	否
+520	赵云	zha4o	zha4o	否	是
