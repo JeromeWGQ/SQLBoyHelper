@@ -84,8 +84,8 @@ def check_single_char_pronunciation_duplicates(words):
     pronunciation_chars = {}  # 用于记录每个读音对应的字符
 
     for char in single_chars:
-        # 获取拼音（带声调数字）
-        pronunciation = pinyin(char, style=Style.TONE3)[0][0]
+        # 使用上下文推断的准确读音
+        pronunciation = get_accurate_pronunciation_from_context(char, words)
         char_pronunciations[char] = pronunciation
 
         # 检查读音是否已存在
@@ -242,12 +242,19 @@ def create_pronunciation_mapping_with_chars(words, pronunciation_collection):
                         same_pronunciation_words.append(w)
 
             word_pronunciation_mapping[word] = pronunciation_char
+
+            # 如果重复词汇列表只包含自己，则不显示
+            if len(same_pronunciation_words) == 1 and same_pronunciation_words[0] == word:
+                same_pronunciation_display = ''
+            else:
+                same_pronunciation_display = ', '.join(same_pronunciation_words)
+
             detailed_results.append({
                 '原始词': word,
                 '读音（汉字）': pronunciation_char,
                 '读音（拼音）': pronunciation_pinyin,
                 '首字音重复数量': first_char_count,
-                '首字音重复词汇列表': ', '.join(same_pronunciation_words)
+                '首字音重复词汇列表': same_pronunciation_display
             })
             single_char_count += 1
 
@@ -261,10 +268,10 @@ def create_pronunciation_mapping_with_chars(words, pronunciation_collection):
             same_pronunciation_words = []
             for w in words:
                 if len(w) == 1:
-                    if pinyin(w, style=Style.TONE3)[0][0] == first_char_pronunciation:
+                    if get_accurate_pronunciation_from_context(w, words) == first_char_pronunciation:
                         same_pronunciation_words.append(w)
                 elif len(w) == 2:
-                    first_char_pinyin = pinyin(w[0], style=Style.TONE3)[0][0]
+                    first_char_pinyin = get_accurate_pronunciation_from_context(w[0], words)
                     if first_char_pinyin == first_char_pronunciation:
                         same_pronunciation_words.append(w)
 
@@ -282,12 +289,18 @@ def create_pronunciation_mapping_with_chars(words, pronunciation_collection):
                 word_pronunciation_mapping[word] = pronunciation_char
                 double_char_read_full += 1
 
+            # 如果重复词汇列表只包含自己，则不显示
+            if len(same_pronunciation_words) == 1 and same_pronunciation_words[0] == word:
+                same_pronunciation_display = ''
+            else:
+                same_pronunciation_display = ', '.join(same_pronunciation_words)
+
             detailed_results.append({
                 '原始词': word,
                 '读音（汉字）': pronunciation_char,
                 '读音（拼音）': pronunciation_pinyin,
                 '首字音重复数量': first_char_count,
-                '首字音重复词汇列表': ', '.join(same_pronunciation_words)
+                '首字音重复词汇列表': same_pronunciation_display
             })
 
     # 检查最终读音是否有重复
